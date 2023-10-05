@@ -31,13 +31,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 400px;
+    width: 30%;
     height: 100vh;
 }
 
 .logo-div {
     margin-top: 200px;
-    width: 400px;
+    width: 100%;
     background: rgba(0,0,0,0.4);
     display: flex;
     justify-content: center;
@@ -46,4 +46,21 @@ body {
 
 #bg-img {
     height: 120px;
+}
+
+.data {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 80px;
+}
+
+.data > div {
+    margin-bottom: 50px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
