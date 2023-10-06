@@ -114,6 +114,12 @@ input {
 
 input {
     height: 25px;
+    font-size: 1.125rem;
+}
+
+input:focus {
+    border: 0px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 0.2);
 }
 
 #create-button {
@@ -127,4 +133,12 @@ input {
 
 .button-box > p > span {
     color:#596D48;
+}
+
+.invalid-password, .invalid-fields {
+    color: rgba(255, 0, 0, 0.541);
+}
+
+.hide {
+    display: none;
 }

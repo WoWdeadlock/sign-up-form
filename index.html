@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Sign-up Form</title>
 </head>
+<script src="/js/script.js" defer></script>
 
 <body>
     
@@ -58,12 +59,14 @@
                     <input type="tel" name="phone-number"><br>
                 </div>
 
-                <div class="input-box">
+                <div class="input-box password">
                     <label for="password">Password</label><br>
                     <input type="password" name="password"><br>
+                    <p class="invalid-password hide">* Passwords do not match</p>  
+                    <p class="invalid-fields hide">* Make sure all the fields are filled</p>    
                 </div>
 
-                <div class="input-box">
+                <div class="input-box confirm-password">
                     <label for="confirm-password">Confirm Password</label><br>
                     <input type="password" name="confirm-password"><br>
                 </div>
