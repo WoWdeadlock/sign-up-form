@@ -142,3 +142,7 @@ input:focus {
 .hide {
     display: none;
 }
+
+.invalid-border {
+    border: 1px solid red;
+}
